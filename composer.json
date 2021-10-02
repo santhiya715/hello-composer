@@ -1,17 +1,6 @@
 {
     "name": "santhiya715/hello-composer",
     "description": "welcome sandy page",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "classmap": [
-
-    ],
- 
-        "psr-4": {
-            "Santhiya715\\HelloComposer\\": "santhiya715/hello-composer/src/"
-        }
-    },
     "authors": [
         {
             "name": "santhiya",
@@ -19,5 +8,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Santhiya715\\HelloComposer\\": "src/"
+        }
+    }
 }

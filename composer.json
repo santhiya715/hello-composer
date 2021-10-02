@@ -11,6 +11,13 @@
     "require": {
         "laravelcollective/html": "^5.5"
     },
+     "extra": {
+        "laravel": {
+            "providers": [
+                "Santhiya715\\HelloComposer\\HelloComposerServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "Santhiya715\\HelloComposer\\": "src/"

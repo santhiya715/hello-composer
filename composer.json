@@ -9,7 +9,7 @@
     ],
  
         "psr-4": {
-            "Santhiya715\\HelloComposer\\": "src/"
+            "Santhiya715\\HelloComposer\\": "santhiya715/hello-composer/src/"
         }
     },
     "authors": [

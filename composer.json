@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "classmap": [
-        "database"
+
     ],
  
         "psr-4": {

@@ -4,6 +4,10 @@
     "type": "library",
     "license": "MIT",
     "autoload": {
+        "classmap": [
+        "database"
+    ],
+ 
         "psr-4": {
             "Santhiya715\\HelloComposer\\": "src/"
         }

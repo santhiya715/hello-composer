@@ -1,0 +1,19 @@
+{
+    "name": "santhiya715/hello-composer",
+    "description": "welcome sandy page",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Santhiya715\\HelloComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "santhiya",
+            "email": "santhiya715@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

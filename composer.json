@@ -1,47 +1,19 @@
 {
     "name": "santhiya715/hello-composer",
-    "description": "Laravel Testing Helper for Packages Development",
-    "keywords": ["laravel", "orchestral", "orchestra-platform", "testing", "tdd", "bdd"],
+    "description": "welcome sandy world",
+    "type": "library",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Santhiya715\\HelloComposer\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "santhiya",
             "email": "santhiya715@gmail.com"
-        
         }
     ],
-    "autoload-dev": {
-        "psr-4": {
-        "Santhiya715\\HelloComposer\\": "src/"
-        }
-    },
-    "require": {
-        "php": "^7.3 || ^8.0",
-        "laravel/framework": "^8.54",
-        "mockery/mockery": "^1.4.2",
-        "Santhiya715/hello-composer-core": "^6.25.2",
-        "phpunit/phpunit": "^8.4 || ^9.3.3",
-        "spatie/laravel-ray": "^1.18"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "6.0-dev"
-        }
-    },
-    "scripts": {
-        "prepare": [
-            "@composer run post-autoload-dump"
-        ],
-        "test": [
-            "@composer run prepare",
-            "@php vendor/bin/phpunit -c ./ --color"
-        ],
-        "post-autoload-dump": [
-            "@php vendor/bin/testbench package:discover --ansi"
-        ]
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require": {}
 }

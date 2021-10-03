@@ -1,7 +1,6 @@
 {
     "name": "santhiya715/hello-composer",
     "description": "Laravel Testing Helper for Packages Development",
-    "homepage": "https://packages.tools/hello-composer/",
     "keywords": ["laravel", "orchestral", "orchestra-platform", "testing", "tdd", "bdd"],
     "license": "MIT",
     "authors": [

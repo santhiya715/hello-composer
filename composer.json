@@ -18,12 +18,6 @@
         }
     ],
     "minimum-stability": "dev",
-    //             "extra": {
-    //     "laravel": {
-    //         "providers": [
-    //             "App\\providers\\HelloComposerServiceProvider"
-    //         ]
-    //     }
-    // }
+           
 
 }

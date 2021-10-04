@@ -15,5 +15,13 @@
         }
     ],
     "minimum-stability": "dev",
+        "extra": {
+        "laravel": {
+            "providers": [
+                "Santhiya715\\HelloComposer\\HelloComposerServiceProvider"
+            ]
+        }
+    },
+
     "require": {}
 }

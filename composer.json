@@ -1,7 +1,10 @@
 {
     "name": "santhiya715/hello-composer",
-    "description": "welcome sandy world",
+    "description": "the sandy world",
     "type": "library",
+    "require": {
+        "santhiya715/hello-composer": "dev-master"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -10,12 +13,12 @@
     },
     "authors": [
         {
-            "name": "santhiya",
-            "email": "santhiya715@gmail.com"
+            "name": "santhiya715",
+            "email": "91604164+santhiya715@users.noreply.github.com"
         }
     ],
     "minimum-stability": "dev",
-            "extra": {
+                "extra": {
         "laravel": {
             "providers": [
                 "App\\providers\\HelloComposerServiceProvider"
@@ -23,6 +26,4 @@
         }
     },
 
-        
-    "require": {}
 }

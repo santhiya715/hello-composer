@@ -17,15 +17,8 @@
             "email": "91604164+santhiya715@users.noreply.github.com"
         }
     ],
-    "minimum-stability": "dev",
-        "extra": {
-        "laravel": {
-            "providers": [
-                "App\\Providers\\HelloComposerServiceProvider"
-            ]
-        }
-    }
-
+    "minimum-stability": "dev"
+      
            
 }
 
